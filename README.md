@@ -1,70 +1,112 @@
-# Getting Started with Create React App
+# Techforing Job Portal (React & Next + Material UI)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple Job Portal built using **React**, **Next**, **React Context API**, **Material UI**, and **React Router**. This app allows users to **sign up, log in, create, edit, delete, and view jobs**, with authentication stored in **localStorage**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌟 Features
 
-### `npm start`
+✅ **Authentication** (Signup/Login) using localStorage  
+✅ **JWT-Based Authentication (Stored Locally)**  
+✅ **Job Management** (Create, View, Edit, Delete Jobs)  
+✅ **Private Routes** (Only logged-in users can access job pages)  
+✅ **Material UI for UI Components**  
+✅ **React Router for Navigation**  
+✅ **Responsive Design**  
+✅ **Job Cards with Horizontal Scrolling**  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+- **Frontend:** React, Next, Material UI, React Router  
+- **State Management:** React Context API  
+- **Storage:** LocalStorage  
+- **Routing:** React Router  
+- **UI Components:** Material UI  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📂 Folder Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+📦 techforing_job_portal
+├── 📂 public
+│   ├── index.html
+├── 📂 src
+│   ├── 📂 components
+│   │   ├── JobCard.js
+│   ├── 📂 context
+│   │   ├── AuthContext.js
+│   │   ├── JobContext.js
+│   ├── 📂 pages
+│   │   ├── Login.js
+│   │   ├── Signup.js
+│   │   ├── JobList.js
+│   │   ├── JobForm.js
+│   ├── 📂 routes
+│   │   ├── PrivateRoute.js
+│   ├── App.js
+│   ├── index.js
+├── .gitignore
+├── README.md
+├── package.json
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Installation & Setup
 
-### `npm run eject`
+### 1️⃣ Clone the Repository
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+git clone https://github.com/vasu112233/techforing_job_portal.git
+cd techforing_job_portal
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 2️⃣ Install Dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 3️⃣ Start the Development Server
 
-## Learn More
+```bash
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This will start the app at `http://localhost:3000/`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🔐 Authentication
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Users can **Sign Up**, and credentials are stored in **localStorage**.  
+- **JWT Token** is stored in localStorage (simulated authentication).  
+- After login, users are redirected to the job portal.  
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📌 Available Commands
 
-### Making a Progressive Web App
+| Command | Description |
+|---------|-------------|
+| `npm install` | Install dependencies |
+| `npm start` | Start development server |
+| `npm run build` | Build for production |
+| `npm test` | Run tests (if added) |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This project is **open-source** and available under the **MIT License**.
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📞 +91 95551 77054
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+👤 **Vaishnavi Kasera** 
+📧 kaseravaishnavi006@gmail.com
+🔗 [GitHub](https://github.com/vasu112233)  
