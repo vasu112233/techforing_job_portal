@@ -1,5 +1,7 @@
 # Techforing Job Portal (React & Next + Material UI)
 
+**Live Project Link** - https://techforing-job-portal-liart.vercel.app/
+
 A simple Job Portal built using **React**, **Next**, **React Context API**, **Material UI**, and **React Router**. This app allows users to **sign up, log in, create, edit, delete, and view jobs**, with authentication stored in **localStorage**.
 
 ---
